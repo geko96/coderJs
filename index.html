@@ -8,6 +8,17 @@
     <script src="./index.js"></script>
 </head>
 <body>
+
+    <script>
+        for (var i = 0; i < localStorage.length; i++){
+            var temp = localStorage.getItem(i);
+            const para = document.createElement("p");
+            para.innerText = temp;
+            document.body.appendChild(para);
+
+
+        }
+    </script>
     
 </body>
 </html>
