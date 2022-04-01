@@ -1,5 +1,4 @@
 /* German Koning - Comision 31640 */ 
-let puntero = 0
 let vart = prompt("ingrese su token")
 let clave = "123"
 if (vart == clave) {
@@ -7,8 +6,6 @@ if (vart == clave) {
 } else {
     alert("Acceso denegado")
 }
-
-
 
 while (vart == clave ) {
     let id = localStorage.length++
@@ -39,6 +36,8 @@ while (vart == clave ) {
     
 
 }
+
+
 
 for (var i = 0; i < localStorage.length; i++){
     var temp = localStorage.getItem(i);
