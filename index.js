@@ -7,6 +7,8 @@ if (vart == clave) {
     alert("Acceso denegado")
 }
 
+alert("la cantidad de usuarios es "+ localStorage.length)
+
 while (vart == clave ) {
     let id = localStorage.length++
     console.log("iniciando")
@@ -36,6 +38,7 @@ while (vart == clave ) {
     
 
 }
+
 
 
 
